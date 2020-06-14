@@ -1,0 +1,56 @@
+.container {
+    padding: 2rem;
+    border: 1px solid black;
+    margin: 2rem;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.scheduleHeader {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+}
+.weekday, .monthDay{
+    padding: .3rem 1rem;
+    color: darkorange;
+}
+.weekday {
+    border-right: 1px solid black;
+}
+.monthDay {
+
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+.timeInfo {
+    border-right: 1px solid black;
+}
+
+.lessonType {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    text-align: center;
+    padding: .5rem;
+    line-height: 1  ;
+}
+.lesson {
+    width: 100%;
+    border: 1px solid black;
+}
+.lessonName {
+    font-size: 1.5rem;
+}
+.additional {
+    border-top: 1px solid black;
+    font-size: 1.1rem;
+}

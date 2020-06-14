@@ -1,0 +1,20 @@
+.creatingForm {
+    width: 500px;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: row;
+}
+
+.settingsForm .options {
+    margin-right: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.settingsForm label {
+    padding: .3rem 0;
+}
+.settingsForm input {
+    margin-right: .5rem;
+}
